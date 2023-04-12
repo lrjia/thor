@@ -4424,15 +4424,15 @@ and what this means is that if a
 
 1107
 00:53:58,110 --> 00:54:00,450
-particular client issues a right and
+particular client issues a write and
 
 1108
 00:54:00,450 --> 00:54:02,220
-then a read and then a read and a right
+then a read and then a read and a write
 
 1109
 00:54:02,220 --> 00:54:05,880
-or whatever that first of all the rights
+or whatever that first of all the writes
 
 1110
 00:54:05,880 --> 00:54:09,990
@@ -4444,15 +4444,15 @@ specified order in the overall order of
 
 1112
 00:54:13,110 --> 00:54:15,960
-all clients rights so if a client says
+all clients writes so if a client says
 
 1113
 00:54:15,960 --> 00:54:18,150
-do this right then that right and the
+do this write then that write and the
 
 1114
 00:54:18,150 --> 00:54:21,140
-third right in the final order of rights
+third write in the final order of writes
 
 1115
 00:54:21,140 --> 00:54:24,210
@@ -4464,7 +4464,7 @@ order of the client specified so for
 
 1117
 00:54:26,280 --> 00:54:32,340
-rights this is our client specified
+writes this is our client specified
 
 1118
 00:54:32,340 --> 00:54:38,310
@@ -4480,7 +4480,7 @@ clients are allowed to launch
 
 1121
 00:54:41,880 --> 00:54:44,610
-asynchronous right requests that is a
+asynchronous write requests that is a
 
 1122
 00:54:44,610 --> 00:54:46,290
@@ -4488,7 +4488,7 @@ client can fire off a whole sequence of
 
 1123
 00:54:46,290 --> 00:54:49,140
-rights to the leader to the zookeeper
+writes to the leader to the zookeeper
 
 1124
 00:54:49,140 --> 00:54:51,060
@@ -5384,7 +5384,7 @@ that's greater than or equal to the
 
 1347
 01:04:42,540 --> 01:04:45,720
-right that last touched the data that
+write that last touched the data that
 
 1348
 01:04:45,720 --> 01:04:54,570
@@ -5536,7 +5536,7 @@ naturally from fifl client order if we
 
 1385
 01:06:29,190 --> 01:06:33,039
-if we countersink as a right then five-o
+if we count sync as a write then five-o
 
 1386
 01:06:33,039 --> 01:06:34,750
@@ -5736,7 +5736,7 @@ describes this will say the master is
 
 1435
 01:08:34,810 --> 01:08:36,460
-doing a bunch of rites to update the
+doing a bunch of writes to update the
 
 1436
 01:08:36,460 --> 01:08:38,880
@@ -5748,7 +5748,7 @@ the master for our distributed system
 
 1438
 01:08:41,469 --> 01:08:43,080
-does the rites
+does the writes
 
 1439
 01:08:43,080 --> 01:08:44,948
