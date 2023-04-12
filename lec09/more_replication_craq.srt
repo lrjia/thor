@@ -1284,7 +1284,7 @@ you're now writing the wrong value you
 
 322
 00:15:05,829 --> 00:15:09,339
-know if 30 values 11 but you're get
+know if up to date value is 11 but you're get
 
 323
 00:15:09,339 --> 00:15:12,100
@@ -1412,7 +1412,7 @@ actually did the zookeeper leader
 
 354
 00:17:08,390 --> 00:17:10,669
-because all rights go to the leader and
+because all writes go to the leader and
 
 355
 00:17:10,669 --> 00:17:12,709
@@ -1672,7 +1672,7 @@ is good
 
 419
 00:20:02,400 --> 00:20:17,160
-or load situations yes if they fit in
+low load situations yes if they fit in
 
 420
 00:20:17,160 --> 00:20:18,990
